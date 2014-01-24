@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+@media (${1:max-width}: ${2:37}em){
+	$3
+}]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>media min-width</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+		function eventstring(){
+		    var eventstring = "";
+		    var ua = navigator.userAgent;
+		    if( ua.match("/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile/")){
+		        eventstring = "touchstart touchmove touchend touchcancel";
+		    }else{
+		        eventstring = "click";
+		    }
+		    return eventstring;
+		}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>eventstring</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.javascript</scope>
+</snippet>
