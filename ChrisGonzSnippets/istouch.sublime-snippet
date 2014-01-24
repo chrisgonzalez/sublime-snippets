@@ -1,17 +1,17 @@
 <snippet>
 	<content><![CDATA[
-		function isTouch(){
-		    var eventstring = "";
-		    var ua = navigator.userAgent;
-		    if( ua.match("/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile/")){
-		        return true;
-		    }else{
-		        return false;
-		    }
-		}
+function isTouch(){
+    var eventstring = "";
+    var ua = navigator.userAgent;
+    if( ua.match("/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile/")){
+        return true;
+    }else{
+        return false;
+    }
+}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>eventstring</tabTrigger>
+	<tabTrigger>istouch</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.javascript</scope>
+	<!-- <scope>source.javascript</scope> -->
 </snippet>

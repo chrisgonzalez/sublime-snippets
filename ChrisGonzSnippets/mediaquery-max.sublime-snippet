@@ -1,20 +1,8 @@
 <snippet>
 	<content><![CDATA[
-		*{
-			display:inline-block;
-		}
-
-		body{
-			margin:0;
-			width:100%;
-			height:100%;
-		}
-
-		h1,h2,h3,h4,h5,h6,p{
-			margin:0;
-			padding:0;
-		}
-
+@media (${1:max-width}: ${2:37}em){
+	$3
+}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>media max-width</tabTrigger>

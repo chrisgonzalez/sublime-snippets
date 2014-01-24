@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-@media (${1:max-width}: ${2:37}em){
+@media (${1:min-width}: ${2:52}em){
 	$3
 }]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
