@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[\$.ajax({
+	  type: "GET",
+	  url: ${1:"URL.com"},
+	  data: {},
+	  dataType: "text",
+	  success: function(data, status, exthing){
+	  		$2;
+		 },
+	  error: function(jqXHR, textStatus, errorThrown){
+	  		console.debug(status);
+	  }
+	});]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ajax</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
