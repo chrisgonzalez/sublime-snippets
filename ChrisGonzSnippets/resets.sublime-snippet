@@ -3,7 +3,8 @@
 /***** global resets *****/
 
 *{
-	display:inline-block;
+	box-sizing:content-box;
+	box-sizing:border-box;
 }
 
 body{
